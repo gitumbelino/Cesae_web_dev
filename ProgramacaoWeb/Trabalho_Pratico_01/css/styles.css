@@ -1,0 +1,77 @@
+/*
+Azul Marinho	#003366	Cabeçalho, fundo de seções
+Dourado	#FFD700	Títulos, botões
+Verde Oliva	#556B2F	Detalhes, ícones
+Branco	#FFFFFF	Fundo principal
+Cinzento Claro	#D3D3D3	Texto secundário, fundo alternativo
+*/
+
+
+
+
+
+body {
+    box-sizing: content-box;
+    max-width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    height: 56px;
+    background-color: #FFD700;
+    max-width: inherit;
+    align-items: center;
+}
+
+.logo-and-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 56px;
+    height: 56px;
+    background-color: #003366;
+
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0 16px;
+}
+
+.about {
+    margin-right: 32px;
+    margin-left: auto;
+}
+
+
+
+.intro-msg {
+    background-color: #D3D3D3;
+    height: 840px;
+}
+
+.intro-img {
+    height: 500px;
+    width: 500px;
+
+
+}
+
+.menu {
+    max-height: 840px;
+
+}
+
+
+
+
+footer {
+
+    background-color: #003366;
+    height: 128px;
+}
